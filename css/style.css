@@ -1,8 +1,14 @@
+html {
+  height: -webkit-fill-available;
+}
+
 body {
   font-family: "Montserrat", Helvetica, Arial, sans-serif!important;
   font-size: 14px!important;
   background: url('../images/background.jpg') no-repeat center center fixed;
   background-size: cover;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 .avatar {
